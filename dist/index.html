@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.b2d9cf43.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script defer="" src="/index.bafbf13d.js"></script>
+
+    <title>movie</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#"></a>
+        <div class="flex">
+          <li>
+            <img src="/螢幕截圖%202022-07-08%20下午10.06.39.43589001.png" alt="site logo" class="header__logo">
+          </li>
+          <li>
+            <a href="https://ww1.123movieshub.tc/home" title="Home">Home</a>
+          </li>
+          <li>
+            <a data-circle="genre" class="clicky">Genre <i class="fa fa-plus"></i></a>
+          </li>
+          <li>
+            <a data-circle="country" class="clicky2">Country <i class="fa fa-plus"></i></a>
+          </li>
+          <li>
+            <a href="https://ww1.123movieshub.tc/movies" title="Movies">Movies</a>
+          </li>
+          <li>
+            <a href="https://ww1.123movieshub.tc/tv-series" title="TV - SERIES">TV-Series</a>
+          </li>
+          <li>
+            <a title="Top IMDB" href="https://ww1.123movieshub.tc/top-imdb">Top IMDb</a>
+          </li>
+          <li>
+            <a title="Requests" href="#" class="sw-open-login">Request</a>
+          </li>
+          <li>
+            <form class="search">
+              <div>
+                <input type="text" class="search__field" placeholder="Search over 500 movies...">
+              </div>
+              <!-- <button class="btn search__btn"> -->
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="features-icon search__btn" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+              </div>
+            </form>
+          </li>
+          <li>
+            <div data-toggle="modal" data-target="#md-login" class="guest">
+              <i class="fas fa-user-circle"></i> <span>Login/ Register</span>
+            </div>
+          </li>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <button class="nav__btn nav__btn--add-recipe">
+                <span>Add recipe</span>
+              </button>
+            </li> -->
+            <li class="nav__item">
+              <button class="nav__btn nav__btn--bookmarks">
+                <span class="list-item">🤍list items</span>
+              </button>
+              <div class="bookmarks">
+                <ul class="bookmarks__list">
+                  <div class="message">
+                    <p>
+                      No bookmarks yet. Find a nice movie and bookmark it :)
+                    </p>
+                  </div>
+
+                  <!-- <li class="preview">
+                    <a class="preview__link" href="#23456">
+                      <figure class="preview__fig">
+                        <img src="src/img/test-1.jpg" alt="Test" />
+                      </figure>
+                      <div class="preview__data">
+                        <h4 class="preview__name">
+                          Pasta with Tomato Cream ...
+                        </h4>
+                        <p class="preview__publisher">The Pioneer Woman</p>
+                      </div>
+                    </a>
+                  </li> -->
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="slider">
+        <img class="slides slide--1" src="/1.d33eedc4.jpg" alt="1">
+        <img class="slides slide--2" src="/2.0c728497.jpg" alt="1">
+        <img class="slides slide--3" src="/3.da4b04b6.jpg" alt="1">
+        <img class="slides slide--4" src="/4.4ecaaf66.jpg" alt="1">
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+      <div class="movies"></div>
+      <div class="search-results"></div>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="add-recipe-window hidden"></div>
+  </body>
+</html>
